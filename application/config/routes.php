@@ -38,10 +38,8 @@
 |
 */
 
-$route['default_controller'] = "wall";
+$route['default_controller'] = "welcome";
 $route['404_override'] = '';
-//$route['default_controller'] = "welcome";
-//$route['compage(:any)'] = "page/profile/$1";
 
 
 /* End of file routes.php */
