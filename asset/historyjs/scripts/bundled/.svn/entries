@@ -1,34 +1,0 @@
-10
-
-dir
-1650
-svn://103.23.244.131/paperbox/asset/historyjs/scripts/bundled
-svn://103.23.244.131/paperbox
-
-
-
-2012-03-27T10:40:59.670394Z
-1644
-toni
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-6235e780-d1b1-4302-b9ad-bd06ee2d9883
-
-html4+html5
-dir
-
-html5
-dir
-
