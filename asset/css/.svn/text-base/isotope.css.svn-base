@@ -1,0 +1,184 @@
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
+
+/**** Isotope styles ****/
+
+/* required for containers to inherit vertical size from window */
+/* NotesList */
+#notelist {
+	padding: 10px 0;
+}
+#notelist h2{
+	margin: 15px;
+	color: #557;
+}
+
+#notes {
+  padding: 5px 5px 5px 15px;
+  margin-bottom: 20px;
+}
+
+
+.item {
+  margin: 5px;
+  float: left;
+  width: 253px;
+  position: relative;
+  background: #efefef;
+  color: #222;
+  font-size: 12px;
+  font-family: Verdana, Arial, Georgia;
+  -webkit-border-top-left-radius: 1.2em;
+      -moz-border-radius-topleft: 1.2em;
+          border-top-left-radius: 1.2em;
+}
+.item h3 {
+	color: #557;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px 10px;
+}
+.item p {
+	margin: 10px;
+	padding-bottom: 20px;
+	color: #334;
+}
+.item p.date {
+	color: #778;
+	font-size: 8px;
+	margin: 1px 10px 2px 2px;
+	text-align: right;
+	padding: 0;
+}
+.item .option {
+	position: absolute;
+        width: 233px;
+	bottom: 0;
+	display: inline-block;
+	padding: 2px 10px;
+	background: #ddd;
+}
+.item.option a {
+	float: left;
+}
+
+.item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
+.item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
+.item.lanthanoid      { background: #FF0; background: hsl(  72, 100%, 50%); }
+.item.actinoid        { background: #0F0; background: hsl( 108, 100%, 50%); }
+.item.transition      { background: #0F8; background: hsl( 144, 100%, 50%); }
+.item.post-transition { background: #0FF; background: hsl( 180, 100%, 50%); }
+.item.metalloid       { background: #08F; background: hsl( 216, 100%, 50%); }
+.item.other.nonmetal  { background: #00F; background: hsl( 252, 100%, 50%); }
+.item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
+.item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
+
+.item .symbol {
+  left: 0.2em;
+  top: 0.4em;
+  font-size: 3.8em;
+  line-height: 1.0em;
+  color: #FFF;
+}
+.item.large .symbol {
+  font-size: 4.5em;
+}
+
+.item.fake .symbol {
+  color: #000;
+}
+
+.item .name {
+  left: 0.5em;
+  bottom: 1.6em;
+  font-size: 1.05em;
+}
+
+.item .weight {
+  font-size: 0.9em;
+  left: 0.5em;
+  bottom: 0.5em;
+}
+
+.item .number {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: hsla(0,0%,0%,.5);
+  right: 0.5em;
+  top: 0.5em;
+}
+
+.variable-sizes .item.width2 { width: 230px; }
+
+.variable-sizes .item.height2 { height: 230px; }
+
+.variable-sizes .item.width2.height2 {
+  font-size: 2.0em;
+}
+
+.item.large,
+.variable-sizes .item.large,
+.variable-sizes .item.large.width2.height2 {
+  font-size: 3.0em;
+  width: 350px;
+  height: 350px;
+  z-index: 100;
+}
+
+.clickable .item:hover {
+  cursor: pointer;
+}
+
+.clickable .item:hover h3 {
+  text-shadow:
+    0 0 10px white,
+    0 0 10px white
+  ;
+}
+
+.clickable .item:hover h2 {
+  color: white;
+}

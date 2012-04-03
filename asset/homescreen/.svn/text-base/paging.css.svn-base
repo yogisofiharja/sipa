@@ -1,0 +1,146 @@
+*{
+    border:none;
+}
+
+.section{
+    float:left;
+    padding-top:90px;
+/*    height:1000px;*/
+    width:100%;
+}
+.area{
+    width:960px;
+}
+.text{
+    width:360px;
+    height:auto;
+    padding-left:20px;
+    position:relative;
+    text-align:left;
+}
+.section h2{
+    position:relative;
+    font-size:50px;
+    text-shadow:0px 3px 3px rgba(0,0,0,0.5);
+    color:#FFF;
+    letter-spacing:-3px;
+
+}
+p{
+    margin-top:30px;
+    height:auto;
+    position:relative;
+    color:#CCE6FF;
+    font-size:16px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.section ul{
+    list-style:none;
+}
+
+a{
+    color:#fff;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+div.reference{
+    width:auto;
+    position:fixed;
+    bottom:0px;
+    left:10%;
+    right:10%;
+    z-index:1000;
+    margin-bottom:10px;
+}
+div.reference a{
+    color:#fff;
+}
+div.reference a:hover{
+    color:#ddd;
+    text-decoration:none;
+}
+ul.nav{
+    width:auto;
+    padding:0px 0px 0px 0px;
+}
+ul.nav li{
+    list-style:none;
+    display:inline;
+    padding-right:10px;
+}
+
+ul.nav li em{
+    width:40px;
+    height:40px;
+    position:relative;
+    float:left;
+    margin-right:10px;
+}
+/*em.link1{
+    background:url(../../images/tasikIco1.png) center bottom no-repeat;
+    height: 25px;
+}
+em.link1:hover{
+    background:url(../../images/tasikIco1.png) center bottom no-repeat;
+}
+em.link2{
+    background:url(../images/icon_chat.png) center bottom no-repeat;
+}
+em.link2:hover{
+    background:url(../images/icon_chat.png) center top no-repeat;
+}
+em.link3{
+    background:url(../images/icon_rangking.png) center bottom no-repeat;
+}
+em.link3:hover{
+    background:url(../images/icon_rangking.png) center top no-repeat;
+}
+em.link4{
+    background:url(../images/icon_statistik.png) center bottom no-repeat;
+}
+em.link4:hover{
+    background:url(../images/icon_statistik.png) center top no-repeat;
+}
+em.link5{
+    background:url(../images/icon_albumalumni.png) center bottom no-repeat;
+}
+em.link5:hover{
+    background:url(../images/icon_albumalumni.png) center top no-repeat;
+}
+em.link6{
+    background:url(../images/icon_pdf.png) center bottom no-repeat;
+}
+em.link6:hover{
+    background:url(../images/icon_pdf.png) center top no-repeat;
+}
+em.link7{
+    background:url(../images/icon_soal.png) center bottom no-repeat;
+}
+em.link7:hover{
+    background:url(../images/icon_soal.png) center top no-repeat;
+}
+em.link8{
+    background:url(../images/icon_materi.png) center bottom no-repeat;
+}
+em.link8:hover{
+    background:url(../images/icon_materi.png) center top no-repeat;
+}
+em.link9{
+    background:url(../images/icon_badge.png) center bottom no-repeat;
+}
+em.link9:hover{
+    background:url(../images/icon_badge.png) center top no-repeat;
+}
+em.link10{
+    background:url(../images/icon_kontes.png) center bottom no-repeat;
+}
+em.link10:hover{
+    background:url(../images/icon_kontes.png) center top no-repeat;
+}*/

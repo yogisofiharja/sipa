@@ -1,0 +1,55 @@
+.container_5 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+/* FriendList */
+#friendlist {
+	padding: 10px 0;
+}
+#friendlist h2{
+	margin: 15px;
+	color: #557;
+}
+#friendlist .friend {
+	padding: 3px 0 0 3px;
+	border: 2px solid #bbb;
+	display: inline-table;
+	margin: 5px 0 0 15px;
+	position: relative;
+}
+#friendlist a img.photo {
+	width: 62px;
+	background: #fff;
+	box-shadow: none;
+	display: inline-table;
+}
+#friendlist .friend div.desc {
+	width: 175px;
+	display: inline-table;
+	vertical-align: top;
+	margin-left: 5px;
+}
+#friendlist .friend h3{
+	margin: 15px;
+	color: #557;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
+#ajaxed-photo {
+	width: 610px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+#ajaxed-photo img {
+	max-height: 450px;
+	max-width: 600px;
+	padding: 5px;
+	position: relative;
+}
+.main-ajax {
+	
+}

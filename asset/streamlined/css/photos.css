@@ -1,0 +1,99 @@
+.container_5 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.photolist {
+    padding: 10px 5px;
+}
+.photolist h2{
+    margin: 15px;
+    color: #557;
+}
+.photolist a.foralbum{
+    display: inline-table;
+    margin: 5px 0 5px 15px;
+    padding: 0;
+    position: relative;
+}
+.photolist a.forphoto{
+    display: inline-table;
+    margin: 0 0 0 10px;
+    padding: 0;
+    position: relative;
+}
+.photolist div.albumframe {
+    border: 2px solid rgb(226,156,0);
+    z-index: -1000;
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+.photolist a img.album {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgb(226,187,0);
+    box-shadow: none;
+    background-color: rgb(255,250,236);
+}
+.photolist a div.album {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgb(226,187,0);
+    box-shadow: none;
+}
+.photolist a span.albumdesc{
+    width: 60px;
+    color: #446;
+    position: relative;
+    bottom: -7px;
+}
+.photolist a div.photo-canvas {
+    display:block;
+    float:left;
+    width:133px;
+    height:133px;
+    line-height:100px;
+    overflow:hidden;
+    position:relative;
+    z-index:1;
+    background: #fff;
+    margin: 5px 0;
+    border: 2px solid lightsteelblue;
+}
+.photolist a.forphoto img {
+    width: 220px;
+    float:left;
+    position: absolute;
+    left: -43px;
+    top: -2px;
+    -webkit-box-shadow:rgba(36, 36, 36, 0.296875) 0px 0px 6px 3px;
+    -moz-box-shadow:rgba(36, 36, 36, 0.296875) 0px 0px 6px 3px;
+    box-shadow:rgba(36, 36, 36, 0.296875) 0px 0px 6px 3px;
+}
+.photolist a div.photo-canvas:hover{
+    overflow:visible;
+    z-index:1000;
+}
+.photolist a span.photodesc{
+    width: 60px;
+    color: #446;
+    position: relative;
+}
+
+#privacy-caption {
+    font-weight: normal;
+    font-size: 10px;
+    position: absolute;
+    color: maroon;
+    top: -5px;
+    margin-left: 5px;
+    font-style: italic;
+}

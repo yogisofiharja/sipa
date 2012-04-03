@@ -1,0 +1,40 @@
+ul.holder { 
+    margin: 0; 
+    overflow: hidden; 
+    height: auto !important;
+    margin-left: 0px;
+    padding:0px 0px 0px 5px;
+    text-decoration: none;
+}
+*:first-child+html ul.holder { 
+    padding-bottom: 2px; 
+} 
+* html ul.holder {  
+    padding-bottom: 2px; 
+} /* ie7 and below */
+ul.holder li { 
+    float: left; 
+    list-style-type: none; 
+    margin: 5px 5px 5px 5px; 
+}
+ul.holder li.bit-box, ul.holder li.bit-input input { 
+    font: 11px "Lucida Grande", "Verdana"; 
+}
+ul.holder li.bit-box { 
+    -moz-border-radius: 6px; 
+    -webkit-border-radius: 6px; 
+    border-radius: 6px; 
+    border: 1px solid #02718f; 
+    background: #DEE7F8; 
+    padding: 1px 5px 2px; 
+}
+ul.holder li.bit-box-focus { 
+    border-color: #598BEC; 
+    background: #598BEC; 
+    color: #fff; 
+}
+
+li.bit-box:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
